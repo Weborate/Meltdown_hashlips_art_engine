@@ -26,7 +26,7 @@ const layerConfigurations = [
 
   // Bandit Female cast
   {
-    growEditionSizeTo: 1,
+    growEditionSizeTo: 833,
     layersOrder: [
       { name: "Bandit Female/Ground" },
       { name: "Bandit Female/Beast" },
@@ -42,7 +42,7 @@ const layerConfigurations = [
 
   // Bandit Male cast
   {
-    growEditionSizeTo: 2,
+    growEditionSizeTo: 1666,
     layersOrder: [
       { name: "Bandit Male/Ground" },
       { name: "Bandit Male/Beast" },
@@ -58,7 +58,7 @@ const layerConfigurations = [
 
   // Survivor Female cast
   { // Normal wear
-    growEditionSizeTo: 3,
+    growEditionSizeTo: 2359,
     layersOrder: [
       { name: "Survivor Female/Ground" },
       { name: "Survivor Female/Dog" },
@@ -73,7 +73,7 @@ const layerConfigurations = [
     ],
   },
   { // Full body wear (15-20% of cast)
-    growEditionSizeTo: 4,
+    growEditionSizeTo: 2499,
     layersOrder: [
       { name: "Survivor Female/Ground" },
       { name: "Survivor Female/Dog" },
@@ -84,10 +84,10 @@ const layerConfigurations = [
       { name: "Survivor Female/Atmosphere Effect" },
     ],
   },
-  
+
   // Survivor Male cast
   { // Normal wear
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 3193,
     layersOrder: [
       { name: "Survivor Male/Ground" },
       { name: "Survivor Male/Dog" },
@@ -101,7 +101,7 @@ const layerConfigurations = [
     ],
   },
   { // Full body wear (15-20% of cast)
-    growEditionSizeTo: 6,
+    growEditionSizeTo: 3333,
     layersOrder: [
       { name: "Survivor Male/Ground" },
       { name: "Survivor Male/Dog" },
