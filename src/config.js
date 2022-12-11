@@ -23,8 +23,10 @@ const solanaMetadata = {
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
+
+  // Bandit Female cast
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 1,
     layersOrder: [
       { name: "Bandit Female/Ground" },
       { name: "Bandit Female/Beast" },
@@ -37,8 +39,10 @@ const layerConfigurations = [
       { name: "Bandit Female/Atmosphere Effect" },
     ],
   },
+
+  // Bandit Male cast
   {
-    growEditionSizeTo: 10,
+    growEditionSizeTo: 2,
     layersOrder: [
       { name: "Bandit Male/Ground" },
       { name: "Bandit Male/Beast" },
@@ -51,8 +55,10 @@ const layerConfigurations = [
       { name: "Bandit Male/Atmosphere Effect" },
     ],
   },
-  {
-    growEditionSizeTo: 15,
+
+  // Survivor Female cast
+  { // Normal wear
+    growEditionSizeTo: 3,
     layersOrder: [
       { name: "Survivor Female/Ground" },
       { name: "Survivor Female/Dog" },
@@ -61,14 +67,27 @@ const layerConfigurations = [
       { name: "Survivor Female/Left Hand Gear" },
       { name: "Survivor Female/Bottom Wear" },
       { name: "Survivor Female/Upper Wear" },
-      { name: "Survivor Female/Full Body Wear" },
       { name: "Survivor Female/Sunglasses" },
       { name: "Survivor Female/Head" },
       { name: "Survivor Female/Atmosphere Effect" },
     ],
   },
-  {
-    growEditionSizeTo: 20,
+  { // Full body wear (15-20% of cast)
+    growEditionSizeTo: 4,
+    layersOrder: [
+      { name: "Survivor Female/Ground" },
+      { name: "Survivor Female/Dog" },
+      { name: "Survivor Female/Body" },
+      { name: "Survivor Female/Right Hand Gear" },
+      { name: "Survivor Female/Left Hand Gear" },
+      { name: "Survivor Female/Full Body Wear" },
+      { name: "Survivor Female/Atmosphere Effect" },
+    ],
+  },
+  
+  // Survivor Male cast
+  { // Normal wear
+    growEditionSizeTo: 5,
     layersOrder: [
       { name: "Survivor Male/Ground" },
       { name: "Survivor Male/Dog" },
@@ -77,8 +96,19 @@ const layerConfigurations = [
       { name: "Survivor Male/Left Hand Gear" },
       { name: "Survivor Male/Bottom Wear" },
       { name: "Survivor Male/Upper Wear" },
-      { name: "Survivor Male/Full Body Wear" },
       { name: "Survivor Male/Head" },
+      { name: "Survivor Male/Atmosphere Effect" },
+    ],
+  },
+  { // Full body wear (15-20% of cast)
+    growEditionSizeTo: 6,
+    layersOrder: [
+      { name: "Survivor Male/Ground" },
+      { name: "Survivor Male/Dog" },
+      { name: "Survivor Male/Body" },
+      { name: "Survivor Male/Right Hand Gear" },
+      { name: "Survivor Male/Left Hand Gear" },
+      { name: "Survivor Male/Full Body Wear" },
       { name: "Survivor Male/Atmosphere Effect" },
     ],
   },
