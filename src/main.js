@@ -112,8 +112,8 @@ const layersSetup = (layersOrder) => {
 
 const saveImage = (_editionCount) => {
   fs.writeFileSync(
-    `${buildDir}/images/${_editionCount}.png`,
-    canvas.toBuffer("image/png")
+    `${buildDir}/images/${_editionCount}.jpg`,
+    canvas.toBuffer("image/jpeg", {quality: 0.98, progressive: false, chromaSubsampling: true})
   );
 };
 
