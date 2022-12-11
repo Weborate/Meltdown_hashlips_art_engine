@@ -141,3 +141,4 @@ dist
 
 .DS_Store
 layers/
+build_backup/

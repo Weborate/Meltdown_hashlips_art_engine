@@ -26,7 +26,6 @@ const layerConfigurations = [
   {
     growEditionSizeTo: 5,
     layersOrder: [
-      { name: "Bandit Female/Background" },
       { name: "Bandit Female/Ground" },
       { name: "Bandit Female/Beast" },
       { name: "Bandit Female/Body" },
@@ -41,7 +40,6 @@ const layerConfigurations = [
   {
     growEditionSizeTo: 10,
     layersOrder: [
-      { name: "Bandit Male/Background" },
       { name: "Bandit Male/Ground" },
       { name: "Bandit Male/Beast" },
       { name: "Bandit Male/Body" },
@@ -56,7 +54,6 @@ const layerConfigurations = [
   {
     growEditionSizeTo: 15,
     layersOrder: [
-      { name: "Survivor Female/Background" },
       { name: "Survivor Female/Ground" },
       { name: "Survivor Female/Dog" },
       { name: "Survivor Female/Body" },
@@ -73,7 +70,6 @@ const layerConfigurations = [
   {
     growEditionSizeTo: 20,
     layersOrder: [
-      { name: "Survivor Male/Background" },
       { name: "Survivor Male/Ground" },
       { name: "Survivor Male/Dog" },
       { name: "Survivor Male/Body" },
@@ -125,8 +121,8 @@ const pixelFormat = {
 const background = {
   generate: true,
   brightness: "80%",
-  static: false,
-  default: "#000000",
+  static: true,
+  default: "#f8f3f2",
 };
 
 const extraMetadata = {};
