@@ -12,6 +12,10 @@ https://www.storj.io/ipfs
 
 With Storj, you can not re-pin files by CID, but you can re-upload the same files with a small script `pin_storj.sh`
 
+## NFT.storage
+
+https://nft.storage/docs/how-to/pinning-service/
+
 ## IPFS node
 
 > Running a node by yourself probably won't be enough. Public gateways will have issues finding your content, so I recommend to use pinning services too.
