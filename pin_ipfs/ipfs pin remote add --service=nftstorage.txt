@@ -1,0 +1,1 @@
+ipfs pin remote add --service=nftstorage --name=thc_metadata_new QmY5CpTm795pMJPwrQHfhGHHPcAZv9c4hFNxZEr9vHRB6g

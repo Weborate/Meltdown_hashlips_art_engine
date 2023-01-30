@@ -1,0 +1,5 @@
+
+sed -i -z 's/,\n    "compiler": "HashLips Art Engine"//g' *
+sed -i -z 's/,\n  "compiler": "HashLips Art Engine"//g' *
+sed -i 's/NewUriToReplace/QmPFouuU9g7Rha1ShkE3dYp1vaP3M563NAvVfLPFmxeGg3/g' *
+sed -i 's/.png/.jpg/g' *
